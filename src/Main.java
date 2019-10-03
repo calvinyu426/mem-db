@@ -5,13 +5,10 @@ public class Main {
 
     private static DbManager dbManager;
     private static Scanner scanner;
-    private static Set<String> supportedTypes;
 
     static {
         dbManager = DbManager.getInstance();
         scanner = new Scanner(System.in);
-        supportedTypes = new HashSet<>();
-        supportedTypes.add(String.class.getSimpleName());
     }
 
     public static void main(String[] args) {
@@ -69,6 +66,42 @@ public class Main {
                     tableName = scanner.nextLine();
                     update(dbName, tableName);
                     break;
+                case 6:
+                    System.out.print("Please enter the database name: ");
+                    dbName = scanner.nextLine();
+                    System.out.print("Enter table name: ");
+                    tableName = scanner.nextLine();
+                    printAll(dbName, tableName);
+                    break;
+                case 7:
+                    System.out.print("Please enter the database name: ");
+                    dbName = scanner.nextLine();
+                    System.out.print("Enter table name: ");
+                    tableName = scanner.nextLine();
+                    System.out.print("Enter the limit count: ");
+                    int count = Integer.parseInt(scanner.nextLine());
+                    printAll(dbName, tableName, count);
+                    break;
+                case 8:
+                    System.out.print("Please enter the database name: ");
+                    dbName = scanner.nextLine();
+                    System.out.print("Enter table name: ");
+                    tableName = scanner.nextLine();
+                    System.out.print("Enter the sorted column: ");
+                    String columnName = scanner.nextLine();
+                    System.out.print("Enter the limit count: ");
+                    count = Integer.parseInt(scanner.nextLine());
+                    sort(dbName, tableName, columnName, count);
+                    break;
+                case 9:
+                    System.out.print("Please enter the database name: ");
+                    dbName = scanner.nextLine();
+                    System.out.print("Enter table name: ");
+                    tableName = scanner.nextLine();
+                    System.out.print("Enter the group by column: ");
+                    columnName = scanner.nextLine();
+                    group(dbName, tableName, columnName);
+                    break;
                 case 10:
                     System.exit(0);
                     return;
@@ -103,7 +136,7 @@ public class Main {
             }
         }
 
-        dbManager.createTable(dbName, tableName, null);
+        dbManager.createTable(dbName, tableName, columnSet);
     }
 
     private static void insert(String dbName, String tableName) throws ParseException {
@@ -119,7 +152,7 @@ public class Main {
             columns.add(columnValue);
         }
 
-        RowData<Comparable> rowData = new RowData<>(tableName, columns);
+        RowData<Comparable> rowData = new RowData<>(columns);
         table.insertRow(rowData);
     }
 
@@ -151,7 +184,7 @@ public class Main {
             columns.add(columnValue);
         }
 
-        RowData<Comparable> rowData = new RowData<>(tableName, columns);
+        RowData<Comparable> rowData = new RowData<>(columns);
         boolean result = table.updateRow(id, rowData);
         if (result) {
             System.out.println("Update successfully!");
@@ -159,6 +192,43 @@ public class Main {
             System.out.println("Update failed!");
         }
     }
+
+    private static void printAll(String dbName, String tableName) {
+        Table table = dbManager.getTable(dbName, tableName);
+        List<RowData> dataList = table.getAll();
+
+        for (RowData rowData : dataList) {
+            System.out.println();
+            System.out.println(rowData.toString());
+        }
+    }
+
+    private static void printAll(String dbName, String tableName, int count) {
+        Table table = dbManager.getTable(dbName, tableName);
+        List<RowData> dataList = table.getWithCount(count);
+
+        for (RowData rowData : dataList) {
+            System.out.println();
+            System.out.println(rowData.toString());
+        }
+    }
+
+    private static void sort(String dbName, String tableName, String column, int count) {
+        Table table = dbManager.getTable(dbName, tableName);
+        List<RowData> dataList = table.sort(column, count);
+
+        for (RowData rowData : dataList) {
+            System.out.println();
+            System.out.println(rowData.toString());
+        }
+    }
+
+    private static void group(String dbName, String tableName, String column) {
+        Table table = dbManager.getTable(dbName, tableName);
+        Map<String, Integer> countMap = table.group(column);
+        System.out.println(countMap);
+    }
+
 
     private static void menu() {
         System.out.println();

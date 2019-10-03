@@ -25,23 +25,30 @@ public class BinarySearchTree<T extends RowData> {
     public TreeNode<T> insertNode(TreeNode node, T row) {
 
         if (node == null) {
-            node = new TreeNode<>(row);
+            TreeNode newNode = new TreeNode<>(row);
             ++size;
-            return node;
+
+            if (null == root) {
+                root = newNode;
+            }
+            return newNode;
         }
 
         if (row.compareTo(node.value) <= 0 && null != node.left) {
-            insertNode(node.left, row);
+            return insertNode(node.left, row);
         } else {
             if (row.compareTo(node.value) <= 0) {
-                node.insertLeft(row);
-            } else if (row.compareTo(node.value) > 0 && null != node.left) {
-                insertNode(node.right, row);
+                node.left = new TreeNode(row);
+                ++size;
+                return node.left;
+            } else if (row.compareTo(node.value) > 0 && null != node.right) {
+                return insertNode(node.right, row);
             } else {
-                node.insertRight(row);
+                node.right = new TreeNode(row);
+                ++size;
+                return node.right;
             }
         }
-        return null;
     }
 
 
@@ -59,58 +66,58 @@ public class BinarySearchTree<T extends RowData> {
         }
     }
 
+    public boolean deleteNode(ColumnValue value) {
+        long beforeSize = size;
+        deleteNode(root, value);
+        return beforeSize - 1 == size;
+    }
 
-    public boolean deleteNode(TreeNode node, ColumnValue value, TreeNode parent) {
-        if (value.compareTo(node.value.key) < 0 && null != node.left) {
-            return deleteNode(node.left, value, node);
-        } else if (value.compareTo(node.value.key) < 0) {
-            return false;
-        } else if (value.compareTo(node.value.key) > 0 && node.right != null) {
-            return deleteNode(node.right, value, node);
+    private TreeNode deleteNode(TreeNode node, ColumnValue value) {
+        if (null == node) {
+            return null;
+        }
+
+        if (value.compareTo(node.value.key) < 0) {
+            node.left = deleteNode(node.left, value);
         } else if (value.compareTo(node.value.key) > 0) {
-            return false;
+            node.right = deleteNode(node.right, value);
         } else {
-            if (node.left == null && node.right == null) {
-                if (node == parent.left) {
-                    parent.left = null;
-                    --size;
-                    return true;
-                } else {
-                    parent.right = null;
-                    --size;
-                    return true;
-                }
-            } else if (node.left != null && node.right == null) {
-                if (node == parent.left) {
-                    parent.left = node.left;
-                    --size;
-                    return true;
-                } else {
-                    parent.right = node.left;
-                    --size;
-                    return true;
-                }
-            } else if (node.left == null && node.right != null) {
-                if (node == parent.left) {
-                    parent.left = node.right;
-                    --size;
-                    return true;
-                } else {
-                    parent.right = node.right;
-                    --size;
-                    return true;
-                }
+            if (null != node.left && null != node.right) {
+                RowData minNode = findMinValue(node.right);
+                node.value = minNode;
+                node.right = deleteNode(node.right, value);
             } else {
-                RowData minValue = findMinValue(node.right);
-                node.value = minValue;
-                deleteNode(node.right, minValue.key, node);
-                --size;
-                return true;
+                boolean isRoot = (root == node);
+                if (null == node.left) {
+                    node = node.right;
+                } else {
+                    node = node.left;
+                }
+                if (isRoot) {
+                    root = node;
+                }
             }
+            --size;
+        }
+
+        return node;
+    }
+
+
+    public void inOrder(TreeNode node, List<RowData> result) {
+        if (node.left != null) {
+            inOrder(node.left, result);
+        }
+        result.add(node.value);
+        if (node.right != null) {
+            inOrder(node.right, result);
         }
     }
 
-    public void inOrder(TreeNode node, List<RowData> result) {
+    public void inOrder(TreeNode node, List<RowData> result, int count) {
+        if (result.size() >= count) {
+            return;
+        }
         if (node.left != null) {
             inOrder(node.left, result);
         }

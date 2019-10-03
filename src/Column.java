@@ -50,6 +50,6 @@ public class Column {
 
     @Override
     public String toString() {
-        return "type=" + type.getSimpleName() + ", name='" + name;
+        return "type=" + type.getSimpleName() + ", name=" + name;
     }
 }

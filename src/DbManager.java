@@ -7,8 +7,8 @@ import java.util.Set;
 
 public class DbManager {
 
-    private Map<String, Database> dataBaseMap;
-    private Map<String, Long> idMap = new HashMap<>();
+    protected Map<String, Database> dataBaseMap;
+    protected Map<String, Long> idMap = new HashMap<>();
 
     private DbManager() {
         dataBaseMap = new HashMap<>();
@@ -81,19 +81,19 @@ public class DbManager {
             throw new DbException("Database: " + dbName + " has been already exists.");
         }
 
-        dataBaseMap.put(dbName, new Database(dbName));
+        dataBaseMap.put(dbName.toLowerCase(), new Database(dbName));
         return true;
     }
 
     public boolean exists(String dbName) {
-        if (null != dataBaseMap.get(dbName)) {
+        if (null != dataBaseMap.get(dbName.toLowerCase())) {
             return true;
         }
         return false;
     }
 
     public boolean createTable(String dbName, String tableName, Set<Column> columnSet) {
-        Database database = dataBaseMap.get(dbName);
+        Database database = dataBaseMap.get(dbName.toLowerCase());
         if (null == database) {
             throw new DbException("Database: " + dbName + " dose not exists.");
         }

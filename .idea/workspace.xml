@@ -1,0 +1,1004 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="2da508ff-d163-4a8c-8366-8d3da722ac99" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/BinarySearchTree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Column.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ColumnValue.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Database.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DbException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DbManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/RowData.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Table.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/TreeNode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../javafx/P2-V1/doc/Communication Diagram.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../javafx/P2-V1/doc/report.docx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../javafx/P2-V1/src/mycontroller/AStar.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../javafx/P2-V1/src/mycontroller/IMoveStrategy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../javafx/P2-V1/src/mycontroller/IRouteFinder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../javafx/P2-V1/src/mycontroller/MoveStrategyImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../javafx/P2-V1/src/mycontroller/MyController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../javafx/RentSystem/images/0.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../javafx/RentSystem/images/c1.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../javafx/RentSystem/images/c2.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../javafx/RentSystem/images/c3.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../javafx/RentSystem/images/c4.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../javafx/RentSystem/images/c5.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../javafx/RentSystem/images/c6.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../javafx/RentSystem/images/c7.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../javafx/RentSystem/images/c8.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../javafx/RentSystem/images/c9.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../javafx/RentSystem/images/v1.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../javafx/RentSystem/images/v2.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../javafx/RentSystem/images/v3.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../javafx/RentSystem/images/v4.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../javafx/RentSystem/images/v5.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../javafx/RentSystem/images/v6.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../javafx/RentSystem/input.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../javafx/RentSystem/lib/hsqldb.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../javafx/RentSystem/scripts/crm.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../javafx/RentSystem/src/controller/ExitControler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../javafx/RentSystem/src/controller/ExportController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../javafx/RentSystem/src/controller/ImportController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../javafx/RentSystem/src/controller/MainController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../javafx/RentSystem/src/controller/VehicleDetailController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../javafx/RentSystem/src/model/constant/Constans.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../javafx/RentSystem/src/model/dao/RentRecordDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../javafx/RentSystem/src/model/dao/VehicleDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../javafx/RentSystem/src/model/entity/Car.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../javafx/RentSystem/src/model/entity/DateTime.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../javafx/RentSystem/src/model/entity/Imodel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../javafx/RentSystem/src/model/entity/RentalRecord.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../javafx/RentSystem/src/model/entity/Van.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../javafx/RentSystem/src/model/entity/Vehicle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../javafx/RentSystem/src/model/entity/VehicleModel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../javafx/RentSystem/src/model/exception/DbException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../javafx/RentSystem/src/model/exception/InvalidArgumentException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../javafx/RentSystem/src/model/exception/InvalidStateException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../javafx/RentSystem/src/model/exception/MaintenanceException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../javafx/RentSystem/src/model/exception/RentException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../javafx/RentSystem/src/model/exception/ReturnException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../javafx/RentSystem/src/model/service/VehicleService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../javafx/RentSystem/src/model/util/DateUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../javafx/RentSystem/src/model/util/FileUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../javafx/RentSystem/src/model/util/RandomUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../javafx/RentSystem/src/view/AlertUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../javafx/RentSystem/src/view/DetailView.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../javafx/RentSystem/src/view/MainApp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../javafx/RentSystem/src/view/MainView.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../javafx/RentSystem/src/view/VehicleView.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../javafx/ThriftyRent/images/car_1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../javafx/ThriftyRent/images/car_10.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../javafx/ThriftyRent/images/car_2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../javafx/ThriftyRent/images/car_3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../javafx/ThriftyRent/images/car_4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../javafx/ThriftyRent/images/car_5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../javafx/ThriftyRent/images/car_6.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../javafx/ThriftyRent/images/car_7.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../javafx/ThriftyRent/images/car_8.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../javafx/ThriftyRent/images/car_9.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../javafx/ThriftyRent/images/no_image.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../javafx/ThriftyRent/images/van_1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../javafx/ThriftyRent/images/van_2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../javafx/ThriftyRent/images/van_3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../javafx/ThriftyRent/images/van_4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../javafx/ThriftyRent/images/van_5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../javafx/ThriftyRent/input_data.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../javafx/ThriftyRent/lib/hsqldb.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../javafx/ThriftyRent/lib/servlet-2_3-fcs-classfiles.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../javafx/ThriftyRent/lib/sqltool.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../javafx/ThriftyRent/src/controller/VehicleDetailController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../javafx/ThriftyRent/src/controller/VehicleListController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../javafx/ThriftyRent/src/model/MainApp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../javafx/ThriftyRent/src/model/constant/VehicleFee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../javafx/ThriftyRent/src/model/constant/VehicleMaintenanceConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../javafx/ThriftyRent/src/model/constant/VehicleMake.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../javafx/ThriftyRent/src/model/constant/VehicleModel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../javafx/ThriftyRent/src/model/constant/VehicleSeats.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../javafx/ThriftyRent/src/model/constant/VehicleStatus.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../javafx/ThriftyRent/src/model/constant/VehicleType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../javafx/ThriftyRent/src/model/entity/Car.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../javafx/ThriftyRent/src/model/entity/IModel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../javafx/ThriftyRent/src/model/entity/Model.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../javafx/ThriftyRent/src/model/entity/RentalRecord.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../javafx/ThriftyRent/src/model/entity/Van.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../javafx/ThriftyRent/src/model/entity/Vehicle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../javafx/ThriftyRent/src/model/exceptions/InvalidInputException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../javafx/ThriftyRent/src/model/exceptions/MaintenanceException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../javafx/ThriftyRent/src/model/exceptions/RentException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../javafx/ThriftyRent/src/model/exceptions/ReturnException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../javafx/ThriftyRent/src/model/service/ApplicationContext.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../javafx/ThriftyRent/src/model/service/VechicleService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../javafx/ThriftyRent/src/model/service/impl/CarServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../javafx/ThriftyRent/src/model/service/impl/VanServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../javafx/ThriftyRent/src/model/util/CommonUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../javafx/ThriftyRent/src/model/util/DateTime.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../javafx/ThriftyRent/src/model/util/DbUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../javafx/ThriftyRent/src/model/util/FileUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../javafx/ThriftyRent/src/view/CustomListItem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../javafx/ThriftyRent/src/view/VehicleList.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../javafx/ThriftyRent/src/view/ViewUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../javafx/a2/resources/images/circle.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../javafx/a2/resources/images/eraser.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../javafx/a2/resources/images/fill.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../javafx/a2/resources/images/line.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../javafx/a2/resources/images/rectangle.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../javafx/a2/resources/images/select.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../javafx/a2/src/AbstractShape.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../javafx/a2/src/Bound.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../javafx/a2/src/Ellipse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../javafx/a2/src/IShape.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../javafx/a2/src/Line.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../javafx/a2/src/MainApp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../javafx/a2/src/MainFrame.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../javafx/a2/src/PaintPanel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../javafx/a2/src/Rectangle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../javafx/a2/src/SelcetMode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../javafx/bike/doc/Assignment 1 sem 1 2019.docx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../javafx/bike/doc/Assignment 2 Sem 1  2019.docx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../javafx/bike/src/Bike.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../javafx/bike/src/BikeDetailView.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../javafx/bike/src/BikeNowGUI.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../javafx/bike/src/BikePane.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../javafx/bike/src/Customer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../javafx/bike/src/CustomerPane.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../javafx/bike/src/EBike.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../javafx/bike/src/Rent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../javafx/bike/src/RentPane.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../javafx/library/data/Address.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../javafx/library/data/Book.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../javafx/library/data/Staff.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../javafx/library/data/Student.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../javafx/library/src/Address.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../javafx/library/src/AddressFrame.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../javafx/library/src/BaseFrame.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../javafx/library/src/Book.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../javafx/library/src/BookConstants.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../javafx/library/src/BorrowBookRecord.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../javafx/library/src/BorrowInfo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../javafx/library/src/ChangePwdFrame.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../javafx/library/src/CsvUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../javafx/library/src/ExceptionMessage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../javafx/library/src/FileUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../javafx/library/src/Library.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../javafx/library/src/LibraryApp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../javafx/library/src/LibraryUI.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../javafx/library/src/LoginFrame.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../javafx/library/src/MainFrame.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../javafx/library/src/NewUserFrame.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../javafx/library/src/Staff.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../javafx/library/src/StateEnum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../javafx/library/src/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../javafx/library/src/StudentListFrame.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../javafx/library/src/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../javafx/library/src/UserConstants.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../javafx/library/src/UserDetailFrame.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../javafx/library/src/UserListFrame.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../javafx/library/src/UserReportFrame.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../javafx/loan/src/sample/Loan.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../javafx/stick_man_app/src/main/java/stickman/model/BaseEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../javafx/stick_man_app/src/main/java/stickman/model/LevelFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../javafx/stick_man_app/src/main/java/stickman/model/Slime.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../javafx/stick_man_app/src/main/java/stickman/model/Tree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../javafx/stickman/A2 spec.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../javafx/stickman/example.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../javafx/stickman/src/main/java/stickman/App.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../javafx/stickman/src/main/java/stickman/AppMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../javafx/stickman/src/main/java/stickman/model/AbstractMoveableEntityImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../javafx/stickman/src/main/java/stickman/model/Cloud.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../javafx/stickman/src/main/java/stickman/model/Enemy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../javafx/stickman/src/main/java/stickman/model/Entity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../javafx/stickman/src/main/java/stickman/model/EntityImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../javafx/stickman/src/main/java/stickman/model/GameConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../javafx/stickman/src/main/java/stickman/model/GameEngine.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../javafx/stickman/src/main/java/stickman/model/GameEngineImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../javafx/stickman/src/main/java/stickman/model/Hero.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../javafx/stickman/src/main/java/stickman/model/Level.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../javafx/stickman/src/main/java/stickman/model/LevelImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../javafx/stickman/src/main/java/stickman/model/MoveableEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../javafx/stickman/src/main/java/stickman/model/Platform.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../javafx/stickman/src/main/java/stickman/view/BackgroundDrawer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../javafx/stickman/src/main/java/stickman/view/BlockedBackground.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../javafx/stickman/src/main/java/stickman/view/EntityView.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../javafx/stickman/src/main/java/stickman/view/EntityViewImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../javafx/stickman/src/main/java/stickman/view/GameWindow.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../javafx/stickman/src/main/java/stickman/view/KeyboardInputHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../javafx/stickman/src/main/java/stickman/view/ParallaxBackground.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../javafx/stickman/src/main/resources/ch_stand1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../javafx/stickman/src/main/resources/ch_stand2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../javafx/stickman/src/main/resources/ch_stand3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../javafx/stickman/src/main/resources/ch_stand4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../javafx/stickman/src/main/resources/ch_stand5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../javafx/stickman/src/main/resources/ch_stand6.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../javafx/stickman/src/main/resources/ch_walk1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../javafx/stickman/src/main/resources/ch_walk2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../javafx/stickman/src/main/resources/ch_walk3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../javafx/stickman/src/main/resources/ch_walk4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../javafx/stickman/src/main/resources/ch_walk5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../javafx/stickman/src/main/resources/ch_walk6.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../javafx/stickman/src/main/resources/ch_walk7.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../javafx/stickman/src/main/resources/ch_walk8.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../javafx/stickman/src/main/resources/cloud_1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../javafx/stickman/src/main/resources/cloud_2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../javafx/stickman/src/main/resources/foot_tile.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../javafx/stickman/src/main/resources/jump.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../javafx/stickman/src/main/resources/landscape_0000_1_trees.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../javafx/stickman/src/main/resources/landscape_0001_2_trees.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../javafx/stickman/src/main/resources/landscape_0002_3_trees.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../javafx/stickman/src/main/resources/landscape_0003_4_mountain.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../javafx/stickman/src/main/resources/landscape_0004_5_clouds.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../javafx/stickman/src/main/resources/landscape_0005_6_background.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../javafx/stickman/src/main/resources/platform.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../javafx/stickman/src/main/resources/slimeBa.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../javafx/stickman/src/main/resources/slimeBb.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../javafx/stickman/src/main/resources/slimeGa.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../javafx/stickman/src/main/resources/slimeGb.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../javafx/stickman/src/main/resources/slimePa.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../javafx/stickman/src/main/resources/slimePb.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../javafx/stickman/src/main/resources/slimeRa.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../javafx/stickman/src/main/resources/slimeRb.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../javafx/stickman/src/main/resources/slimeYa.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../javafx/stickman/src/main/resources/slimeYb.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../javafx/stickman/src/main/resources/tree.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../javafx/vector-design/images/Select.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../javafx/vector-design/images/circle.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../javafx/vector-design/images/erase.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../javafx/vector-design/images/fill.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../javafx/vector-design/images/line.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../javafx/vector-design/images/plot.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../javafx/vector-design/images/polygon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../javafx/vector-design/images/rectangle.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../javafx/vector-design/src/Command.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../javafx/vector-design/src/CopyBoard.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../javafx/vector-design/src/Ellipse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../javafx/vector-design/src/IShape.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../javafx/vector-design/src/Line.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../javafx/vector-design/src/MainApp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../javafx/vector-design/src/PaintPanel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../javafx/vector-design/src/Plot.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../javafx/vector-design/src/Point.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../javafx/vector-design/src/Polygon.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../javafx/vector-design/src/Rectangle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../javafx/vector-design/src/Shape.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../javafx/vector-design/test/ShapeTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../javafx/vector-design/test/changed.vec" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../javafx/vector-design/test/color-out.vec" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../javafx/vector-design/test/color.vec" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../javafx/vector-design/test/ellipse.vec" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../javafx/vector-design/test/fill-rect.vec" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../javafx/vector-design/test/fill.vec" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../javafx/vector-design/test/line.vec" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../javafx/vector-design/test/pen.vec" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../javafx/vector-design/test/plot.vec" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../javafx/vector-design/test/polygon.vec" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../javafx/vector-design/test/rect.vec" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../javafx/vector-design/test/star.vec" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../javafx/vector/images/Select.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../javafx/vector/images/circle.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../javafx/vector/images/eraser.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../javafx/vector/images/fill.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../javafx/vector/images/line.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../javafx/vector/images/rectangle.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../javafx/vector/src/AbstractShape.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../javafx/vector/src/Bound.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../javafx/vector/src/Ellipse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../javafx/vector/src/IShape.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../javafx/vector/src/Line.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../javafx/vector/src/MainFrame.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../javafx/vector/src/PaintPanel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../javafx/vector/src/Rectangle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../javafx/vector/src/SelcetMode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../self/BST/src/BSTNode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../self/BST/src/BinarySearchTree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../self/BST/src/BinaryTree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../self/BST/src/BinaryTreeNode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../self/BST/src/CountdownTree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../self/BST/src/DefaultComparator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../self/BST/src/RangeSSet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../self/BST/src/SSet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../self/BST/src/SortedSSet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../self/BST/src/Testum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../self/Bitstrings/expectedOutput.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../self/Bitstrings/src/Parser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../self/Bitstrings/src/ParserTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../self/Bitstrings/src/Token.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../self/Bitstrings/src/TokenType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../self/Bitstrings/test.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../self/DictionaryClient/META-INF/MANIFEST.MF" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../self/DictionaryClient/compile.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../self/DictionaryClient/run.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../self/DictionaryClient/src/DictionaryClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../self/DictionaryClient/src/Request.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../self/DictionaryClient/src/Response.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../self/DictionaryServer/META-INF/MANIFEST.MF" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../self/DictionaryServer/compile.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../self/DictionaryServer/dic.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../self/DictionaryServer/run.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../self/DictionaryServer/src/DictionaryServer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../self/DictionaryServer/src/Request.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../self/DictionaryServer/src/Response.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../self/NPC/src/DieRoller (6).java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../self/NPC/src/GameDriver (1).java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../self/NPC/src/GameMovementSingle (1).java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../self/NPC/src/GameMovementmulti (1).java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../self/NPC/src/Inventory (1).java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../self/NPC/src/Inventory2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../self/NPC/src/Inventory3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../self/NPC/src/NPC (1).java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../self/ThriftyRent/src/model/constans/VehicleConstants.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../self/graph/src/CITS2200Project.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../self/graph/src/CITS2200ProjectTester.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../self/graph/src/MyCITS2200Project.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../self/graph/test/test.graph" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../self/lua-parser/Assignment2.docx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../self/lua-parser/src/cop5556fa19/AST/ASTNode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../self/lua-parser/src/cop5556fa19/AST/ASTVisitor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../self/lua-parser/src/cop5556fa19/AST/Block.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../self/lua-parser/src/cop5556fa19/AST/Exp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../self/lua-parser/src/cop5556fa19/AST/ExpBinary.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../self/lua-parser/src/cop5556fa19/AST/ExpFalse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../self/lua-parser/src/cop5556fa19/AST/ExpFunction.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../self/lua-parser/src/cop5556fa19/AST/ExpInt.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../self/lua-parser/src/cop5556fa19/AST/ExpList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../self/lua-parser/src/cop5556fa19/AST/ExpName.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../self/lua-parser/src/cop5556fa19/AST/ExpNil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../self/lua-parser/src/cop5556fa19/AST/ExpString.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../self/lua-parser/src/cop5556fa19/AST/ExpTable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../self/lua-parser/src/cop5556fa19/AST/ExpTrue.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../self/lua-parser/src/cop5556fa19/AST/ExpUnary.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../self/lua-parser/src/cop5556fa19/AST/ExpVarArgs.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../self/lua-parser/src/cop5556fa19/AST/Expressions.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../self/lua-parser/src/cop5556fa19/AST/Field.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../self/lua-parser/src/cop5556fa19/AST/FieldExpKey.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../self/lua-parser/src/cop5556fa19/AST/FieldImplicitKey.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../self/lua-parser/src/cop5556fa19/AST/FieldList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../self/lua-parser/src/cop5556fa19/AST/FieldNameKey.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../self/lua-parser/src/cop5556fa19/AST/FuncBody.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../self/lua-parser/src/cop5556fa19/AST/FuncName.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../self/lua-parser/src/cop5556fa19/AST/FunctionCall.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../self/lua-parser/src/cop5556fa19/AST/Name.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../self/lua-parser/src/cop5556fa19/AST/ParList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../self/lua-parser/src/cop5556fa19/ExpressionParser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../self/lua-parser/src/cop5556fa19/ExpressionParserTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../self/lua-parser/src/cop5556fa19/Scanner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../self/lua-parser/src/cop5556fa19/ScannerTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../self/lua-parser/src/cop5556fa19/Token.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../self/lua-parser/testInputFiles/test2.input" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../self/os-ass/experiment2/input_parameters.prp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../self/os-ass/experiment2/inputs.in" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../self/os-ass/experiment2/output.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../self/os-ass/experiment2/simulator_parameters.prp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../self/os-ass/experiment3/input_parameters.prp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../self/os-ass/experiment3/inputs.in" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../self/os-ass/experiment3/output.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../self/os-ass/experiment3/simulator_parameters.prp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../self/os-ass/experiment4/input_parameters.prp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../self/os-ass/experiment4/inputs.in" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../self/os-ass/experiment4/output.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../self/os-ass/experiment4/simulator_parameters.prp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../self/os-ass/src/AbstractScheduler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../self/os-ass/src/BurstProcess.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../self/os-ass/src/Event.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../self/os-ass/src/EventProcessor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../self/os-ass/src/ExponentialGenerator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../self/os-ass/src/FcfsScheduler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../self/os-ass/src/FeedbackRRScheduler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../self/os-ass/src/IdealSJFScheduler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../self/os-ass/src/InputGenerator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../self/os-ass/src/InputReader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../self/os-ass/src/Process.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../self/os-ass/src/ProcessModel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../self/os-ass/src/RRScheduler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../self/os-ass/src/SJFScheduler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../self/os-ass/src/Simulator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../self/os-ass/src/run.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../self/puzzle/src/signpost/BoardWidget.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../self/puzzle/src/signpost/CommandSource.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../self/puzzle/src/signpost/Controller.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../self/puzzle/src/signpost/GUI.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../self/puzzle/src/signpost/GUISource.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../self/puzzle/src/signpost/Help.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../self/puzzle/src/signpost/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../self/puzzle/src/signpost/Makefile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../self/puzzle/src/signpost/Model.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../self/puzzle/src/signpost/ModelTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../self/puzzle/src/signpost/Place.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../self/puzzle/src/signpost/PuzzleGenerator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../self/puzzle/src/signpost/PuzzleGeneratorTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../self/puzzle/src/signpost/PuzzleSource.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../self/puzzle/src/signpost/TestSource.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../self/puzzle/src/signpost/UnitTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../self/puzzle/src/signpost/Utils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../self/puzzle/src/signpost/View.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../self/puzzle/testing/Makefile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../self/puzzle/testing/test00.in" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../self/puzzle/testing/test00.std" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../self/puzzle/testing/test01.in" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../self/puzzle/testing/test01.std" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../self/puzzle/testing/test02.in" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../self/puzzle/testing/test02.std" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../self/puzzle/testing/test03.in" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../self/puzzle/testing/test03.std" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../self/puzzle/testing/test05.in" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../self/puzzle/testing/test05.std" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../self/puzzle/testing/test06.in" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../self/puzzle/testing/test06.std" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../self/puzzle/testing/test07.in" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../self/puzzle/testing/test07.std" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../self/puzzle/testing/test08.in" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../self/puzzle/testing/test08.std" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../self/puzzle/testing/test09.in" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../self/puzzle/testing/test09.std" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../self/puzzle/testing/tester.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../self/puzzle/testing/testing.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../self/scanner/testInputFiles/test2.input" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../self/shell/doc/ftp.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../self/shell/src/crm.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../self/shell/src/ecdd.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../self/shell/src/history.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../self/shell/src/other/backup.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../self/shell/src/other/backup2.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../self/shell/src/other/config.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../self/shell/src/other/delC.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../self/shell/src/other/f1.cc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../self/shell/src/other/f2.cc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../self/shell/src/other/setting.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../self/shell/src/other/test.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../self/shell/src/other/test/AAA.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../self/shell/src/other/test/BBB.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../self/shell/src/task.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../self/shell/src/test.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../javafx/puzzle/src/Puzzle.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../javafx/puzzle/src/Puzzle8.java" beforeDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/out/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="1427643003">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="1" />
+          <entry key="project.open.time.1" value="1" />
+          <entry key="project.open.time.11" value="1" />
+          <entry key="project.opened" value="2" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="JAVA" value="26" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="JAVA" value="4833" />
+          <entry key="PLAIN_TEXT" value="1" />
+        </counts>
+      </usages-collector>
+    </session>
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Column.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="95">
+              <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+              <folding>
+                <element signature="e#948#949#0" expanded="true" />
+                <element signature="e#1021#1022#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Table.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="171">
+              <caret line="9" column="24" lean-forward="true" selection-start-line="9" selection-start-column="24" selection-end-line="9" selection-end-column="24" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Main.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="393">
+              <caret line="114" column="51" lean-forward="true" selection-start-line="114" selection-start-column="51" selection-end-line="114" selection-end-column="51" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/BinarySearchTree.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="281">
+              <caret line="80" column="32" lean-forward="true" selection-start-line="80" selection-start-column="32" selection-end-line="80" selection-end-column="32" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/RowData.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="133">
+              <caret line="7" column="40" lean-forward="true" selection-start-line="7" selection-start-column="40" selection-end-line="7" selection-end-column="40" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/ColumnValue.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="13" selection-start-column="13" selection-end-column="13" />
+              <folding>
+                <element signature="e#279#280#0" expanded="true" />
+                <element signature="e#308#309#0" expanded="true" />
+                <element signature="e#400#401#0" expanded="true" />
+                <element signature="e#434#435#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Database.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="388">
+              <caret line="33" lean-forward="true" selection-start-line="33" selection-end-line="33" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/DbManager.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="261">
+              <caret line="58" column="39" selection-start-line="58" selection-start-column="39" selection-end-line="58" selection-end-column="39" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="GradleLocalSettings">
+    <option name="projectSyncType">
+      <map>
+        <entry key="$PROJECT_DIR$/../../CO2006-18-19/sprint3/sprint3.miniproject" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../../CO2006-18-19/sprint4/sprint4.checkpoint" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../../CO2006-18-19/sprint4/sprint4.miniproject" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../../a2" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../../javafx/a2" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../../self/BrawndoCodebase" value="PREVIEW" />
+      </map>
+    </option>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/DataBase.java" />
+        <option value="$PROJECT_DIR$/src/DbException.java" />
+        <option value="$PROJECT_DIR$/src/TreeNode.java" />
+        <option value="$PROJECT_DIR$/src/Database.java" />
+        <option value="$PROJECT_DIR$/src/Column.java" />
+        <option value="$PROJECT_DIR$/src/ColumnValue.java" />
+        <option value="$PROJECT_DIR$/src/RowData.java" />
+        <option value="$PROJECT_DIR$/src/Main.java" />
+        <option value="$PROJECT_DIR$/src/DbManager.java" />
+        <option value="$PROJECT_DIR$/src/Table.java" />
+        <option value="$PROJECT_DIR$/src/BinarySearchTree.java" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="ProjectFrameBounds" fullScreen="true">
+    <option name="width" value="1440" />
+    <option name="height" value="900" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <autoscrollFromSource ProjectPane="true" />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="mem-db" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mem-db" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="mem-db" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mem-db" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="mem-db" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mem-db" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="BinarySearchTree" type="1a9f42e2:ClassTreeNode" />
+            </path>
+            <path>
+              <item name="mem-db" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mem-db" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Column" type="1a9f42e2:ClassTreeNode" />
+            </path>
+            <path>
+              <item name="mem-db" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mem-db" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="ColumnValue" type="1a9f42e2:ClassTreeNode" />
+            </path>
+            <path>
+              <item name="mem-db" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mem-db" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Database" type="1a9f42e2:ClassTreeNode" />
+            </path>
+            <path>
+              <item name="mem-db" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mem-db" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="DbManager" type="1a9f42e2:ClassTreeNode" />
+            </path>
+            <path>
+              <item name="mem-db" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mem-db" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Main" type="1a9f42e2:ClassTreeNode" />
+            </path>
+            <path>
+              <item name="mem-db" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mem-db" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="RowData" type="1a9f42e2:ClassTreeNode" />
+            </path>
+            <path>
+              <item name="mem-db" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mem-db" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Table" type="1a9f42e2:ClassTreeNode" />
+            </path>
+            <path>
+              <item name="mem-db" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mem-db" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="TreeNode" type="1a9f42e2:ClassTreeNode" />
+            </path>
+            <path>
+              <item name="mem-db" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+            </path>
+            <path>
+              <item name="mem-db" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; 1.8 &gt;" type="70bed36:NamedLibraryElementNode" />
+            </path>
+            <path>
+              <item name="mem-db" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; 1.8 &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="rt.jar" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="mem-db" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; 1.8 &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="rt.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="mem-db" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; 1.8 &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="rt.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="lang" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="mem-db" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; 1.8 &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="rt.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="lang" type="462c0819:PsiDirectoryNode" />
+              <item name="Class" type="1a9f42e2:ClassTreeNode" />
+            </path>
+            <path>
+              <item name="mem-db" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; 1.8 &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="rt.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="lang" type="462c0819:PsiDirectoryNode" />
+              <item name="Comparable" type="1a9f42e2:ClassTreeNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1570073428786" />
+    <property name="extract.method.default.visibility" value="private" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="preferences.sourceCode" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Main" />
+      <module name="mem-db" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="2da508ff-d163-4a8c-8366-8d3da722ac99" name="Default Changelist" comment="" />
+      <created>1570034743351</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1570034743351</updated>
+      <workItem from="1570034744856" duration="10856000" />
+      <workItem from="1570067855058" duration="5160000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="16016000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="0" width="1440" height="900" extended-state="0" />
+    <editor active="true" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.13018598" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32970297" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32970297" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.9014909" weight="0.19504951" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32970297" />
+      <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.32891566" />
+      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.09850905" side_tool="true" weight="0.4821782" />
+      <window_info anchor="bottom" id="Version Control" order="10" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Run with VisualVM" order="11" />
+      <window_info active="true" anchor="bottom" id="Messages" order="12" visible="true" weight="0.32891566" />
+      <window_info anchor="bottom" id="Debug with VisualVM" order="13" />
+      <window_info anchor="right" id="Coverage" order="0" side_tool="true" />
+      <window_info anchor="right" x="0" y="0" width="430" height="880" id="Documentation" order="1" sideWeight="0.5015244" side_tool="true" weight="0.3221512" />
+      <window_info anchor="right" id="Ant Build" order="2" weight="0.24973376" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="3" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="4" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="5" />
+      <window_info anchor="right" id="Capture Analysis" order="6" />
+      <window_info anchor="right" id="Theme Preview" order="7" />
+      <window_info anchor="right" id="Palette&#9;" order="8" />
+      <window_info anchor="right" id="Database" order="9" weight="0.32960597" />
+      <window_info anchor="right" id="Maven Projects" order="10" weight="0.32960597" />
+      <window_info anchor="right" x="1582" y="35" width="1636" height="1010" id="SciView" order="11" sideWeight="0.4984756" visible="true" weight="0.12804006" />
+      <window_info anchor="right" id="Codota" order="12" />
+      <window_info anchor="right" id="PlantUML" order="13" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/DbException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="2" column="26" lean-forward="true" selection-start-line="2" selection-start-column="26" selection-end-line="2" selection-end-column="26" />
+          <folding>
+            <element signature="e#125#126#0" expanded="true" />
+            <element signature="e#155#156#0" expanded="true" />
+            <element signature="e#214#215#0" expanded="true" />
+            <element signature="e#251#252#0" expanded="true" />
+            <element signature="e#294#295#0" expanded="true" />
+            <element signature="e#322#323#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_172.jdk/Contents/Home/src.zip!/java/lang/Comparable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="232">
+          <caret line="114" column="41" lean-forward="true" selection-start-line="114" selection-start-column="41" selection-end-line="114" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_172.jdk/Contents/Home/src.zip!/java/lang/Class.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="235">
+          <caret line="1300" column="6" selection-start-line="1300" selection-start-column="6" selection-end-line="1300" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/TreeNode.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="39" selection-start-column="39" selection-end-column="39" />
+          <folding>
+            <element signature="e#160#161#0" expanded="true" />
+            <element signature="e#194#195#0" expanded="true" />
+            <element signature="e#224#225#0" expanded="true" />
+            <element signature="e#273#274#0" expanded="true" />
+            <element signature="e#309#310#0" expanded="true" />
+            <element signature="e#358#359#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Database.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="388">
+          <caret line="33" lean-forward="true" selection-start-line="33" selection-end-line="33" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Column.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+          <folding>
+            <element signature="e#948#949#0" expanded="true" />
+            <element signature="e#1021#1022#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ColumnValue.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="13" selection-start-column="13" selection-end-column="13" />
+          <folding>
+            <element signature="e#279#280#0" expanded="true" />
+            <element signature="e#308#309#0" expanded="true" />
+            <element signature="e#400#401#0" expanded="true" />
+            <element signature="e#434#435#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/RowData.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="7" column="40" lean-forward="true" selection-start-line="7" selection-start-column="40" selection-end-line="7" selection-end-column="40" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/DbManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="261">
+          <caret line="58" column="39" selection-start-line="58" selection-start-column="39" selection-end-line="58" selection-end-column="39" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="393">
+          <caret line="114" column="51" lean-forward="true" selection-start-line="114" selection-start-column="51" selection-end-line="114" selection-end-column="51" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Table.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="9" column="24" lean-forward="true" selection-start-line="9" selection-start-column="24" selection-end-line="9" selection-end-column="24" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/BinarySearchTree.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="281">
+          <caret line="80" column="32" lean-forward="true" selection-start-line="80" selection-start-column="32" selection-end-line="80" selection-end-column="32" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

@@ -31,7 +31,7 @@ public class ColumnValue<T extends Comparable> implements Comparable<ColumnValue
 
     @Override
     public String toString() {
-        return "column=" + column + ", value=" + value;
+        return column + ", value=" + value;
     }
 
     @Override
